@@ -1,11 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ms"
+      data-title-en="Turns Green Agriculture — Sabah's Premium Pineapple Grower"
+      data-title-bm="Turns Green Agriculture — Pengeluar Nanas Premium Sabah"
+      data-desc-en="Turns Green Agriculture Sdn Bhd grows MD2 pineapples, rubber and durian seedlings, and runs agrotourism in Sabah. Trusted by RISDA, LGM, and government agencies since 2012."
+      data-desc-bm="Turns Green Agriculture Sdn Bhd mengeluarkan nanas MD2, anak benih getah dan durian, serta agropelancongan di Sabah. Dipercayai oleh RISDA, LGM dan agensi kerajaan sejak 2012.">
 <head>
   <meta charset="UTF-8">
-  <title>Turns Green Agriculture — Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Turns Green Agriculture</title>
+  <meta name="description" content="Turns Green Agriculture Sdn Bhd">
+  <link rel="icon" href="/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta property="og:title" content="Turns Green Agriculture">
+  <meta property="og:description" content="Sabah's premium pineapple grower since 2012.">
+  <meta property="og:image" content="/assets/img/og-image.jpg">
+  <meta property="og:type" content="website">
 </head>
 <body>
-  <h1>Turns Green Agriculture Sdn Bhd</h1>
-  <p>Site under construction.</p>
+
+<!-- HEADER START - copy from _partials/header.html -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="/">
+      <img class="site-header__logo" src="/assets/img/logo.png" alt="Turns Green Agriculture" width="40" height="40">
+      <div>
+        <div class="site-header__name">Turns Green Agriculture</div>
+        <div class="site-header__reg">Sdn Bhd · 1173251-A</div>
+      </div>
+    </a>
+    <button class="site-header__hamburger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <nav class="site-header__nav" aria-label="Main">
+      <a href="/" data-en="Home" data-bm="Utama" aria-current="page">Home</a>
+      <a href="/about.html" data-en="About" data-bm="Mengenai">About</a>
+      <a href="/operations.html" data-en="Operations" data-bm="Operasi">Operations</a>
+      <a href="/products.html" data-en="Products" data-bm="Produk">Products</a>
+      <a href="/credentials.html" data-en="Credentials" data-bm="Sijil">Credentials</a>
+      <a href="/gallery.html" data-en="Gallery" data-bm="Galeri">Gallery</a>
+      <a href="/milestones.html" data-en="Milestones" data-bm="Pencapaian">Milestones</a>
+      <a href="/contact.html" data-en="Contact" data-bm="Hubungi">Contact</a>
+      <button class="site-header__lang" data-lang-toggle>BM | EN</button>
+    </nav>
+  </div>
+</header>
+<!-- HEADER END -->
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero__title"
+          data-en="Sabah's premium pineapple grower."
+          data-bm="Pengeluar nanas premium Sabah.">Pengeluar nanas premium Sabah.</h1>
+      <p class="hero__sub"
+         data-en="MD2 pineapples, rubber and durian seedlings, agrotourism — supplying government and private partners across Sabah since 2012."
+         data-bm="Nanas MD2, anak benih getah dan durian, agropelancongan — membekal kepada agensi kerajaan dan rakan swasta di Sabah sejak 2012.">Nanas MD2, anak benih getah dan durian, agropelancongan — membekal kepada agensi kerajaan dan rakan swasta di Sabah sejak 2012.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="/about.html" data-en="Our Story →" data-bm="Kisah Kami →">Kisah Kami →</a>
+        <a class="btn btn--secondary" href="/contact.html" data-en="Contact" data-bm="Hubungi">Hubungi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="stats-strip">
+        <div><div class="stat-num">14</div><div class="stat-lbl" data-en="Years operating" data-bm="Tahun beroperasi">Tahun beroperasi</div></div>
+        <div><div class="stat-num">40</div><div class="stat-lbl" data-en="Acres at main nursery" data-bm="Ekar nurseri utama">Ekar nurseri utama</div></div>
+        <div><div class="stat-num">7</div><div class="stat-lbl" data-en="Rubber clones produced" data-bm="Klon getah dihasilkan">Klon getah dihasilkan</div></div>
+        <div><div class="stat-num">5+</div><div class="stat-lbl" data-en="Government partners" data-bm="Rakan kerajaan">Rakan kerajaan</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT TEASER -->
+  <section class="section">
+    <div class="container" style="max-width:760px;text-align:center;">
+      <p class="label" data-en="About" data-bm="Mengenai">Mengenai</p>
+      <h2 data-en="A Sabah-grown agriculture company you can trust." data-bm="Syarikat pertanian Sabah yang anda boleh percayai.">Syarikat pertanian Sabah yang anda boleh percayai.</h2>
+      <p data-en="Founded in 2012 in Kg. Kelanahan, Papar, Turns Green Agriculture Sdn Bhd has grown into one of Sabah's leading nurseries — supplying rubber seedlings to LGM and RISDA, premium MD2 pineapples to local and national markets, and durian seedlings to farmers across the state."
+         data-bm="Diasaskan pada tahun 2012 di Kg. Kelanahan, Papar, Turns Green Agriculture Sdn Bhd telah berkembang menjadi salah satu nurseri terkemuka di Sabah — membekal anak benih getah kepada LGM dan RISDA, nanas MD2 premium kepada pasaran tempatan dan nasional, serta anak benih durian kepada petani di seluruh negeri.">Diasaskan pada tahun 2012 di Kg. Kelanahan, Papar, Turns Green Agriculture Sdn Bhd telah berkembang menjadi salah satu nurseri terkemuka di Sabah — membekal anak benih getah kepada LGM dan RISDA, nanas MD2 premium kepada pasaran tempatan dan nasional, serta anak benih durian kepada petani di seluruh negeri.</p>
+      <a class="btn btn--secondary mt-4" href="/about.html" data-en="Read more →" data-bm="Selengkapnya →">Selengkapnya →</a>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="section section--cream">
+    <div class="container">
+      <p class="label center" data-en="What we do" data-bm="Apa yang kami lakukan">Apa yang kami lakukan</p>
+      <h2 class="center" data-en="Three core lines of business." data-bm="Tiga teras perniagaan kami.">Tiga teras perniagaan kami.</h2>
+      <div class="grid-3 mt-4">
+        <a class="card" href="/products.html#pineapple" style="text-decoration:none;color:inherit;">
+          <img src="/assets/img/railway-pineapple.png" alt="Railway Pineapple" style="height:80px;width:auto;margin-bottom:12px;">
+          <h3 data-en="Railway Pineapple (MD2)" data-bm="Railway Pineapple (MD2)">Railway Pineapple (MD2)</h3>
+          <p data-en="Premium MD2 pineapples grown in Sabah. Sweet on Track." data-bm="Nanas MD2 premium dari Sabah. Manis Sepanjang Jalan.">Nanas MD2 premium dari Sabah. Manis Sepanjang Jalan.</p>
+        </a>
+        <a class="card" href="/products.html#rubber" style="text-decoration:none;color:inherit;">
+          <div style="font-size:48px;line-height:1;margin-bottom:8px;">🌱</div>
+          <h3 data-en="Rubber Seedlings" data-bm="Anak Benih Getah">Anak Benih Getah</h3>
+          <p data-en="Seven LGM-recommended clones supplied to RISDA, LGM, and large plantations." data-bm="Tujuh klon yang disyorkan LGM dibekal kepada RISDA, LGM, dan ladang besar.">Tujuh klon yang disyorkan LGM dibekal kepada RISDA, LGM, dan ladang besar.</p>
+        </a>
+        <a class="card" href="/products.html#durian" style="text-decoration:none;color:inherit;">
+          <div style="font-size:48px;line-height:1;margin-bottom:8px;">🌳</div>
+          <h3 data-en="Durian Seedlings" data-bm="Anak Benih Durian">Anak Benih Durian</h3>
+          <p data-en="Quality durian planting material for farmers across Sabah." data-bm="Bahan tanaman durian berkualiti untuk petani di seluruh Sabah.">Bahan tanaman durian berkualiti untuk petani di seluruh Sabah.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUSTED BY -->
+  <section class="section">
+    <div class="container center">
+      <p class="label" data-en="Trusted by" data-bm="Dipercayai oleh">Dipercayai oleh</p>
+      <h2 data-en="Government and industry partners across Malaysia." data-bm="Rakan kerajaan dan industri di seluruh Malaysia.">Rakan kerajaan dan industri di seluruh Malaysia.</h2>
+      <div class="grid-4 mt-4" style="font-weight:700;color:var(--c-forest);font-size:18px;">
+        <div>RISDA</div>
+        <div>LGM</div>
+        <div>JPS</div>
+        <div>LPNM</div>
+        <div data-en="Dept. of Agriculture" data-bm="Jabatan Pertanian">Jabatan Pertanian</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--forest center">
+    <div class="container">
+      <h2 style="color:#fff;" data-en="Let's work together." data-bm="Mari bekerjasama.">Mari bekerjasama.</h2>
+      <p style="opacity:0.85;max-width:560px;margin:0 auto 24px;" data-en="Government, B2B, or curious — we'd love to hear from you." data-bm="Kerajaan, B2B, atau ingin tahu lebih — kami berbesar hati mendengar daripada anda.">Kerajaan, B2B, atau ingin tahu lebih — kami berbesar hati mendengar daripada anda.</p>
+      <a class="btn btn--primary" style="background:var(--c-lime);color:var(--c-forest);" href="/contact.html" data-en="Get in touch →" data-bm="Hubungi kami →">Hubungi kami →</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER START - copy from _partials/footer.html -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__cols">
+      <div>
+        <div style="font-weight:800;color:#fff;font-size:15px;">Turns Green Agriculture Sdn Bhd</div>
+        <div style="margin-top:8px;font-size:12px;opacity:0.75;line-height:1.6;">
+          <div>Reg. 1173251-A</div>
+          <div data-en="Kg. Kelanahan, Papar, Sabah" data-bm="Kg. Kelanahan, Papar, Sabah">Kg. Kelanahan, Papar, Sabah</div>
+        </div>
+      </div>
+      <div>
+        <h4 data-en="Pages" data-bm="Halaman">Halaman</h4>
+        <div style="font-size:13px;line-height:1.9;">
+          <div><a href="/" data-en="Home" data-bm="Utama">Utama</a></div>
+          <div><a href="/about.html" data-en="About" data-bm="Mengenai">Mengenai</a></div>
+          <div><a href="/operations.html" data-en="Operations" data-bm="Operasi">Operasi</a></div>
+          <div><a href="/products.html" data-en="Products" data-bm="Produk">Produk</a></div>
+          <div><a href="/credentials.html" data-en="Credentials" data-bm="Sijil">Sijil</a></div>
+          <div><a href="/contact.html" data-en="Contact" data-bm="Hubungi">Hubungi</a></div>
+        </div>
+      </div>
+      <div>
+        <h4 data-en="Contact" data-bm="Hubungi">Hubungi</h4>
+        <div style="font-size:13px;line-height:1.9;">
+          <div>+6017-8596661</div>
+          <div>info@turnsgreen.com.my</div>
+        </div>
+      </div>
+      <div>
+        <h4 data-en="Follow" data-bm="Ikuti">Ikuti</h4>
+        <div style="font-size:13px;line-height:1.9;" id="footer-social">
+          <!-- Filled in Task 14 once social channels are confirmed -->
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__bottom">© 2026 Turns Green Agriculture Sdn Bhd · All rights reserved</div>
+  </div>
+</footer>
+<!-- FOOTER END -->
+
+<script src="/assets/js/lang.js"></script>
+<script src="/assets/js/nav.js"></script>
 </body>
 </html>
