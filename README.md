@@ -2,7 +2,8 @@
 
 Public company website for Turns Green Agriculture Sdn Bhd (Reg. 1173251-A).
 
-- **Live:** https://turnsgreen.com.my
+- **Planned URL:** https://turnsgreen.com.my (registered in Task 18)
+- **Netlify staging:** https://thriving-longma-02e505.netlify.app
 - **Hosting:** Netlify
 - **Languages:** Bahasa Malaysia + English (toggle in header)
 - **Tech:** Static HTML/CSS/vanilla JS — no build step
